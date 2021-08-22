@@ -347,10 +347,44 @@ img{
 }
 
 /*==================== ABOUT ====================*/
+.about__img{
+  width: 200px;
+  border-radius: .5rem;
+  justify-self: center;
+  align-self: center;
+  margin-bottom: 2rem;
+}
+
+.about__description{
+  text-align: center;
+  margin-bottom: var(--mb-2-5);
+}
+
+.about__buttons{
+  display: flex;
+  justify-content: center;
+}
 
 
 /*==================== SKILLS ====================*/
+.skills__container{
+  row-gap: 0;
+}
 
+.skills__header{
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--mb-2-5);
+  cursor: pointer;
+}
+
+.skills__arrow,
+.skills__icon{
+  font-size: 2rem;
+  color: var(--first-color);
+}
+
+.skills_title
 
 /*==================== QUALIFICATION ====================*/
 
