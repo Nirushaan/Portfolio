@@ -384,7 +384,96 @@ img{
   color: var(--first-color);
 }
 
-.skills_title
+.skills_title{
+  font-size: var(--h3-font-size);
+}
+
+.skills__subtitle{
+
+}
+
+.skills__arrow{
+  margin-left: auto;
+  transition: .4s;
+}
+
+.skills__titles{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--mb-0-5);
+}
+
+.skills__name{
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+}
+
+.skills__bar,
+.skills__percentage{
+  height: 10px;
+  border-radius: .25rem;
+}
+
+.skills__bar{
+  background-color: var(--first-color-lighter);
+}
+
+.skills__percentage{
+  display: block;
+  background-color: var(--first-color);
+}
+
+.skills__html{
+  width: 80%;
+}
+
+.skills__css{
+  width: 65%;
+}
+
+.skills__java{
+  width: 80%;
+}
+
+.skills__js{
+  width: 55%;
+}
+
+.skills__php{
+  width: 55%;
+}
+
+.skills__sql{
+  width: 70%;
+}
+
+.skills__python{
+  width: 45%;
+}
+
+.skills__photoshop{
+  width: 70%;
+}
+
+.skills__davinci{
+  width: 70%;
+}
+
+
+.skills__close .skills__list{
+  height: 0;
+  overflow: hidden;
+}
+
+.skills__open .skills__list{
+  height: max-content;
+  margin-bottom: var(--mb-2-5);
+}
+
+.skills__open .skills__arrow{
+  transform: rotate(-180deg);
+}
+
 
 /*==================== QUALIFICATION ====================*/
 
