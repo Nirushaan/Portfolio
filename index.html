@@ -36,7 +36,7 @@
               </a>
             </li>
             <li class="nav__item">
-              <a href="#skils" class="nav__link">
+              <a href="#skills" class="nav__link">
                 <i class="uil uil-file-alt nav__icon"></i> Skills
               </a>
             </li>
@@ -276,7 +276,7 @@
       </section>
 
       <!--==================== QUALIFICATION ====================-->
-      <section class="qualification section">
+      <section class="qualification section" id="qualification">
         <h2 class="section__title">Qualification</h2>
         <span class="section__subtitle">My personal journey</span>
 
@@ -290,7 +290,7 @@
 
           <div class="qualification__sections">
             <!--==================== QUALIFICATION CONTENT 1 ====================-->
-            <div class="qualification__content">
+            <div class="qualification__content" data-content id="education">
               <!--==================== QUALIFICATION 1 ====================-->
               <div class="qualification__data">
                 <div>
@@ -308,43 +308,70 @@
                 </div>
               </div>
 
-
-              <!--==================== QUALIFICATION 2 ====================-->
+              <!--==================== QUALIFICATION 3 ====================-->
               <div class="qualification__data">
-                <div>
-                  <h3 class="qualification__title">Primarschule</h3>
-                  <span class="qualification__subtitle">Regensdorf</span>
-                  <div class="qualification__calendar">
-                    <i class="uil uil-calendar-alt"></i>
-                    2009-2015
-                  </div>
-                </div>
+                <div></div>
 
                 <div>
                   <span class="qualification__rounder"></span>
                   <span class="qualification__line"></span>
                 </div>
-              </div>
 
-
-              <!--==================== QUALIFICATION 1 ====================-->
-              <div class="qualification__data">
                 <div>
-                  <h3 class="qualification__title">Primarschule</h3>
-                  <span class="qualification__subtitle">Regensdorf</span>
+
+                  <h3 class="qualification__title">Kantonsschule Zürich Nord</h3>
+                  <span class="qualification__subtitle">Oerlikon</span>
                   <div class="qualification__calendar">
                     <i class="uil uil-calendar-alt"></i>
-                    2009-2015
+                    2015-2016
                   </div>
+
                 </div>
 
-                <div>
-                  <span class="qualification__rounder"></span>
-                  <span class="qualification__line"></span>
-                </div>
               </div>
 
             </div>
+            <!--==================== QUALIFICATION CONTENT 2 ====================-->
+            <div class="qualification__content" data-content id="work">
+              <!--==================== QUALIFICATION 2 ====================-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Sekundarschule A</h3>
+                  <span class="qualification__subtitle">Ruggenacher 2, Regensdorf</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2016-2018
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+
+              <!--==================== QUALIFICATION 4 ====================-->
+              <div class="qualification__data">
+                <div></div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <!--<span class="qualification__line"></span>-->
+                </div>
+
+                <div>
+                  <h3 class="qualification__title">Informatikmittelschule</h3>
+                  <span class="qualification__subtitle">KSH, Hottingen</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2018-2021
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+
 
           </div>
 
@@ -359,7 +386,103 @@
 
       <!--==================== PORTFOLIO ====================-->
       <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">Portfolio</h2>
+        <span class="section__subtitle">Most recent</span>
 
+        <div class="portfolio__container container">
+          <!--==================== PORTFOLIO 1====================-->
+          <div class="portfolio__content grid">
+            <img src="img/js_taschenrechner.JPG" alt="" class="portfolio__img">
+
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">JS Taschenrechner</h3>
+              <a href="#" class="button button--fleex button--small portfolio__button">
+              Demo
+              <i class="uil uil-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!--==================== PORTFOLIO 2====================-->
+          <div class="portfolio__content grid">
+            <img src="img/pong.JPG" alt="" class="portfolio__img">
+
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">Pong</h3>
+              <a href="#" class="button button--fleex button--small portfolio__button">
+                Demo
+                <i class="uil uil-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!--==================== PORTFOLIO 3====================-->
+          <div class="portfolio__content grid">
+            <img src="img/reisen1.jpg" alt="" class="portfolio__img">
+
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">Nizza, Frankreich</h3>
+              <a href="#" class="button button--fleex button--small portfolio__button">
+                Demo
+                <i class="uil uil-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+          
+          <!--==================== PORTFOLIO 5====================-->
+          <div class="portfolio__content grid">
+            <img src="img/reisen3.jpg" alt="" class="portfolio__img">
+
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">Lavertezzo, Tessin</h3>
+              <a href="#" class="button button--fleex button--small portfolio__button">
+                Demo
+                <i class="uil uil-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!--==================== PORTFOLIO 6====================-->
+          <div class="portfolio__content grid">
+            <img src="img/reisen4.jpg" alt="" class="portfolio__img">
+
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">Monaco</h3>
+              <a href="#" class="button button--fleex button--small portfolio__button">
+                Demo
+                <i class="uil uil-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!--==================== PORTFOLIO 7====================-->
+          <div class="portfolio__content grid">
+            <img src="img/reisen5.jpg" alt="" class="portfolio__img">
+
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">Lac Souterrain St. Léonard, Wallis</h3>
+              <a href="#" class="button button--fleex button--small portfolio__button">
+                Demo
+                <i class="uil uil-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!--==================== PORTFOLIO 8====================-->
+          <div class="portfolio__content grid">
+            <img src="img/reisen6.jpg" alt="" class="portfolio__img">
+
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">Zürich</h3>
+              <a href="#" class="button button--fleex button--small portfolio__button">
+                Demo
+                <i class="uil uil-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+
+        </div>
 
       </section>
 
