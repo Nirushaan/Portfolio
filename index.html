@@ -389,9 +389,10 @@
         <h2 class="section__title">Portfolio</h2>
         <span class="section__subtitle">Most recent</span>
 
-        <div class="portfolio__container container">
+        <div class="portfolio__container container swiper-container">
+          <div class="swiper-wrapper">
           <!--==================== PORTFOLIO 1====================-->
-          <div class="portfolio__content grid">
+          <div class="portfolio__content grid swiper-slide">
             <img src="img/js_taschenrechner.JPG" alt="" class="portfolio__img">
 
             <div class="portfolio__data">
@@ -404,7 +405,7 @@
           </div>
 
           <!--==================== PORTFOLIO 2====================-->
-          <div class="portfolio__content grid">
+          <div class="portfolio__content grid swiper-slide">
             <img src="img/pong.JPG" alt="" class="portfolio__img">
 
             <div class="portfolio__data">
@@ -417,7 +418,7 @@
           </div>
 
           <!--==================== PORTFOLIO 3====================-->
-          <div class="portfolio__content grid">
+          <div class="portfolio__content grid swiper-slide">
             <img src="img/reisen1.jpg" alt="" class="portfolio__img">
 
             <div class="portfolio__data">
@@ -428,9 +429,9 @@
               </a>
             </div>
           </div>
-          
+
           <!--==================== PORTFOLIO 5====================-->
-          <div class="portfolio__content grid">
+          <div class="portfolio__content grid swiper-slide">
             <img src="img/reisen3.jpg" alt="" class="portfolio__img">
 
             <div class="portfolio__data">
@@ -443,7 +444,7 @@
           </div>
 
           <!--==================== PORTFOLIO 6====================-->
-          <div class="portfolio__content grid">
+          <div class="portfolio__content grid swiper-slide">
             <img src="img/reisen4.jpg" alt="" class="portfolio__img">
 
             <div class="portfolio__data">
@@ -456,7 +457,7 @@
           </div>
 
           <!--==================== PORTFOLIO 7====================-->
-          <div class="portfolio__content grid">
+          <div class="portfolio__content grid swiper-slide">
             <img src="img/reisen5.jpg" alt="" class="portfolio__img">
 
             <div class="portfolio__data">
@@ -469,7 +470,7 @@
           </div>
 
           <!--==================== PORTFOLIO 8====================-->
-          <div class="portfolio__content grid">
+          <div class="portfolio__content grid swiper-slide">
             <img src="img/reisen6.jpg" alt="" class="portfolio__img">
 
             <div class="portfolio__data">
@@ -481,26 +482,84 @@
             </div>
           </div>
 
+          </div>
+
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
 
         </div>
 
       </section>
 
-      <!--==================== PROJECT IN MIND ====================-->
-      <section class="project section">
-
-
-      </section>
-
-      <!--==================== TESTIMONIAL ====================-->
-      <section class="testimonial section">
-
-
-      </section>
-
       <!--==================== CONTACT ME ====================-->
       <section class="contact section" id="contact">
+        <h2 class="section__title">Contact Me</h2>
+        <span class="section__subtitle">Get in touch</span>
 
+
+        <div class="contact__container container grid">
+          <div>
+
+            <div class="contact__information">
+              <i class="uil uil-phone contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Call Me</h3>
+                <span class="contact__subtitle">078 640 11 33</span>
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-envelope contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Email</h3>
+                <span class="contact__subtitle">nirushaan.sureshkumar@gmail.com</span>
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-map-marker contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Location</h3>
+                <span class="contact__subtitle">Steinstrasse 58<br>8106, Adlikon</span>
+
+              </div>
+            </div>
+          </div>
+
+
+          <form action="" class="contact__form grid">
+            <div class="contact__inputs grid">
+
+              <div class="contact__content">
+                <label for="" class="contact__label">Name</label>
+                <input type="text" class="contact__input">
+              </div>
+
+              <div class="contact__content">
+                <label for="" class="contact__label">Email</label>
+                <input type="email" class="contact__input">
+              </div>
+
+              <div class="contact__content">
+                <label for="" class="contact__label">Message</label>
+                <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+              </div>
+
+              <div>
+                <a href="#" class="button button--flex">
+                  Send Message
+                  <i class="uil uil-message button__icon"></i>
+                </a>
+              </div>
+
+            </div>
+          </form>
+
+        </div>
 
       </section>
     </main>
