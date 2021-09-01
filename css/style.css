@@ -796,7 +796,8 @@ portfolio__img{
     justify-self: center;
   }
 
-  .about__container,
+
+
   .portfolio__content,
   .contact__container,
   .footer__container
@@ -893,7 +894,8 @@ portfolio__img{
   }
 
   .about__container{
-    column-gap: 5rem;
+
+    justify-content: center;
   }
 
   .about__img{
@@ -905,7 +907,7 @@ portfolio__img{
   }
 
   .about__buttons{
-    justify-content: initial;
+    justify-content: center;
   }
 
   .qualification__tabs{
